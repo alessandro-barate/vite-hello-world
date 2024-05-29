@@ -5,11 +5,11 @@ export default {
   data() {
     return {};
   },
-  components: { AppTitle },
+  components: { Title },
 };
 </script>
 <template>
-  <AppTitle />
+  <Title />
 </template>
 
 <style scoped></style>

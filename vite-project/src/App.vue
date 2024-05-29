@@ -1,16 +1,15 @@
 <script>
+import Title from "./components/AppTitle.vue";
 export default {
   name: "MyApp",
   data() {
-    return {
-      title: "Hello World!",
-    };
+    return {};
   },
+  components: { AppTitle },
 };
 </script>
-
 <template>
-  <h1>{{ title }}</h1>
+  <AppTitle />
 </template>
 
 <style scoped></style>
